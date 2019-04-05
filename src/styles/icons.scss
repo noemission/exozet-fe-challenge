@@ -1,0 +1,34 @@
+@font-face {
+  font-family: iconfont;
+  src: url('../assets/fonts/icomoon.eot');
+  src: url('../assets/fonts/icomoon.eot?#iefix') format('eot'), url('../assets/fonts/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  font-family: iconfont;
+  content: "\e900";
+}
+
+.icon-email::before {
+  font-family: iconfont;
+  content: '\e901';
+}
+
+.icon-phone::before {
+  font-family: iconfont;
+  content: '\e902';
+}

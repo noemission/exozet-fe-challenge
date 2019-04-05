@@ -1,0 +1,43 @@
+.sidebar {
+  margin-top: 25px;
+  .section {
+    padding-bottom: 0;
+    .list-green {
+      padding-left: 10px;
+      color: #739024;
+      font-size: 14px;
+      line-height: 20px;
+      .list-icon {
+        font-size: 10px;
+        line-height: 18px;
+        margin-right: 3px;
+      }
+    }
+  }
+  .contact-address {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    padding-bottom: 14px;
+  }
+  .contact-phone,
+  .contact-email {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .teaser-wrapper {
+    img {
+      height: auto;
+      object-fit: cover;
+    }
+    background-color: #e7ecef;
+    border: 1px solid;
+    border-color: #c7c5c4;
+    .teaser-wrapper-inner {
+      padding: 8px 10px;
+      .description {
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+}

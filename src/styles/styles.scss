@@ -1,0 +1,25 @@
+@import "fonts.scss";
+@import "button.scss";
+@import "colors.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "icons.scss";
+@import "reset.scss";
+@import "sections.scss";
+@import "sidebar.scss";
+@import "grid.scss";
+// @import 'functions/*';
+// @import 'mixins/*';
+// @import 'resets/*';
+// @import 'generic/*';
+// @import 'effects/*';
+// @import 'objects/*';
+// @import 'elements/*';
+// @import 'components/*';
+
+.page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,37 @@
+{
+  "name": "exozet-fe-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
+    "build": "webpack --config webpack/webpack.config.prod.js"
+  },
+  "license": "MIT",
+  "browserslist": [
+    "last 1 version",
+    "> 0.2%",
+    "not dead",
+    "Firefox >= 27 or chrome >= 32 or Safari >= 8 or Opera >= 29"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-exclude-assets-plugin": "0.0.7",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "description": "Front end challenge.",
+  "main": "index.js",
+  "author": "Alex Michailidis"
+}

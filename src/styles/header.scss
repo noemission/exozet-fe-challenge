@@ -1,0 +1,45 @@
+.header {
+  @media screen and (max-width: 660px) {
+    &.row {
+      justify-content: center;
+    }
+    .navigation-list {
+      display: none;
+    }
+  }
+  position: relative;
+  padding: 24px 30px;
+  margin-bottom: 18px;
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c3c0c5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(200% - 40px);
+    transform: translateX(-50%);
+  }
+  .logo {
+    width: 175px;
+    height: 39px;
+    display: block;
+  }
+
+  .navigation-item {
+    font-family: titillium;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    border-radius: 2px;
+    &:hover {
+      background-color: #e8e7e8;
+      border-color: #c3c0c5;
+    }
+  }
+}
